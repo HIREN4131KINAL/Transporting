@@ -1,0 +1,176 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.laado.fragment.HomeFragment">
+
+    <ImageView
+        android:id="@+id/slide_images"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slide_images">
+
+        <TextView
+            android:id="@+id/tv_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:text="Notice And Event"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/tv_notice"
+            android:layout_marginBottom="4dp"
+            android:background="@android:color/holo_green_dark">
+
+        </View>
+
+        <TextView
+            android:id="@+id/notice1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_notice"
+            android:layout_margin="3dp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:freezesText="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text=" 1) Kindly inform you that yourtomorrow exam delay due to heavy rain. it will collect  25-5-2016 so please note that"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/notice2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/notice1"
+            android:layout_margin="3dp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:freezesText="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text=" 2) Kindly inform you that yourtomorrow exam delay due to heavy rain. it will collect  25-5-2016 so please note that"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/notice3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/notice2"
+            android:layout_margin="3dp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:freezesText="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text=" 3) Kindly inform you that yourtomorrow exam delay due to heavy rain. it will collect  25-5-2016 so please note that"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rel1">
+
+        <TextView
+            android:id="@+id/tv_about_college"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="About College"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/tv_about_college"
+            android:layout_marginBottom="4dp"
+            android:background="@android:color/holo_green_dark" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_about_college">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:padding="5dp"
+                    android:text="INCEPTION\n
+SAL Group of Institutions was incepted as a major organ of Adarsh Foundation in 2009, under the Bombay Public Trust Act 1950. Adarsh Foundation is promoted by Shah Alloys Limited a major steel manufacturing company company in India , a leading firm in India." />
+
+                <TextView
+                    android:id="@+id/tv_about2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_about"
+                    android:layout_margin="3dp"
+                    android:padding="5dp"
+                    android:text="PURPOSE\n
+To create facilities and undertake research and studies in the field of engineering and other related education fields.\n
+
+To provide research facilities for carrying out basic and applied research.\n
+
+To promote, develop, improve and exchange the knowledge in the field of professional courses and in education by holding exhibitions, seminars, conferences,	courses, lecturers, demonstrations and	general	awareness programs and make efforts for technical cooperation	between	similar research institutions.\n
+
+Serving the society to enhance the quality of life by perfect education and healthcare service.\n
+
+To setup a strong infrastructure, to promote high standard education in the Hi-tech fields of Engineering and Technology, Pharmacy, Management and other education fields to meet the needs of trained manpower in Gujarat state and beyond." />
+
+                <TextView
+                    android:id="@+id/tv_about3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_about2"
+                    android:layout_margin="3dp"
+                    android:padding="5dp"
+                    android:text="AMBIENCE\n
+Environment is known to play a vital roll in the output an performance of an individual in general and students and particular. The Sal Campus is situated in lush green environment, bringing freshness to the young minds and encourages them to invest their energy to come out with innovations and creations. The total area of land is 25 Acres. The large green grounds available on the campus not only add to aesthetic allegiance but also provide vibrant pursuits of knowledge by young aspirants." />
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

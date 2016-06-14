@@ -1,0 +1,14 @@
+CHANGED,D:\Android Materials\MaterialDesign\MaterialDesign\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,D:\Android Materials\MaterialDesign\MaterialDesign\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\v7\appcompat\R$id$override.class
+CHANGED,D:\Android Materials\MaterialDesign\MaterialDesign\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\info\androidhive\materialdesign\fragment\ContactUsFragment$override.class
+CHANGED,D:\Android Materials\MaterialDesign\MaterialDesign\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\info\androidhive\materialdesign\R$menu$override.class
+CHANGED,D:\Android Materials\MaterialDesign\MaterialDesign\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\info\androidhive\materialdesign\R$integer$override.class
+CHANGED,D:\Android Materials\MaterialDesign\MaterialDesign\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\info\androidhive\materialdesign\R$id$override.class
+CHANGED,D:\Android Materials\MaterialDesign\MaterialDesign\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\info\androidhive\materialdesign\R$styleable$override.class
+CHANGED,D:\Android Materials\MaterialDesign\MaterialDesign\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\info\androidhive\materialdesign\R$layout$override.class
+CHANGED,D:\Android Materials\MaterialDesign\MaterialDesign\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\info\androidhive\materialdesign\R$mipmap$override.class
+CHANGED,D:\Android Materials\MaterialDesign\MaterialDesign\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\info\androidhive\materialdesign\R$style$override.class
+CHANGED,D:\Android Materials\MaterialDesign\MaterialDesign\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\info\androidhive\materialdesign\R$string$override.class
+CHANGED,D:\Android Materials\MaterialDesign\MaterialDesign\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\info\androidhive\materialdesign\activity\RegisterActivity$override.class
+CHANGED,D:\Android Materials\MaterialDesign\MaterialDesign\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\info\androidhive\materialdesign\activity\LoginActivity$override.class
+CHANGED,D:\Android Materials\MaterialDesign\MaterialDesign\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\info\androidhive\materialdesign\activity\MainActivity$override.class

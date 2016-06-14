@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fcfcfc</color>
+    <color name="colorPrimaryDark">#181718</color>
+    <color name="textColorPrimary">#292727</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#F69828</color>
+    <color name="black_alpha_40">#e1d7d7</color>
+    <color name="button_background">#F69828</color>
+    <color name="blue">#3B5998</color>
+    <color name="white">#FFFFFF</color>
+    <color name="button_focus">#efac5c</color>
+    <color name="button_pressed">#dc7800</color>
+    <color name="tab_name">#61615b</color>
+    <color name="text_dark">#585454</color>
+</resources>

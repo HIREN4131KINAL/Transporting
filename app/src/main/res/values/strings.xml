@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">LAADO</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_map">Map</string>
+    <string name="nav_item_profile">My profile</string>
+    <string name="nav_item_payment">Payment method</string>
+    <string name="nav_item_history">History</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_map</item>
+        <item>@string/nav_item_profile</item>
+        <item>@string/nav_item_payment</item>
+        <item>@string/nav_item_history</item>
+    </string-array>
+
+    <string name="title_history">History</string>
+    <string name="title_payment">Payment method</string>
+    <string name="title_profile">My Profile</string>
+    <string name="title_map">Map</string>
+
+    <string-array name="nav_drawer_icons">
+        <item>@drawable/ic_map</item>
+        <item>@drawable/ic_map</item>
+        <item>@drawable/ic_action_search</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBhaI4YgCg2ru7CkqlhCpnloVUXuXNyMYI</string>
+
+</resources>
