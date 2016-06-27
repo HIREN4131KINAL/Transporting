@@ -55,11 +55,6 @@
         <activity
             android:name="com.example.laado.activity.MainActivity"
             android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.example.laado.driver.RegistrationVehicle"
@@ -72,6 +67,11 @@
         <activity android:name="com.example.laado.driver.VehicleIdentify" >
         </activity>
         <activity android:name="com.example.laado.activity.SignInCatActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name="com.example.laado.activity.SigninUser" />
         <activity android:name="com.example.laado.tabbar.TabbarActivity" />

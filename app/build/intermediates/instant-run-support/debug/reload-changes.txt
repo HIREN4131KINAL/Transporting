@@ -1,2 +1,3 @@
-CHANGED,C:\Users\Arpit\Desktop\Recent\LAADO\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\laado\activity\MainActivity$override.class
+CHANGED,C:\Users\Arpit\Desktop\Recent\LAADO\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\laado\adapter\NavigationDrawerAdapter$override.class
+CHANGED,C:\Users\Arpit\Desktop\Recent\LAADO\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\laado\adapter\NavigationDrawerAdapter$MyViewHolder$override.class
 CHANGED,C:\Users\Arpit\Desktop\Recent\LAADO\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

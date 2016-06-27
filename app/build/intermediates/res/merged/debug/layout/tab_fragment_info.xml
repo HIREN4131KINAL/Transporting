@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.laado.tabbar.TabFragmentOne">
+    tools:context=".tabbar.TabFragmentINFO">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -70,14 +70,20 @@
     </LinearLayout>
 
     <Button
-        android:layout_width="150dp"
+        android:id="@+id/bt_logout"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_margin="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
         android:background="@color/colorAccent"
         android:text="Log out"
         android:textColor="@android:color/white"
-        android:textSize="18sp" />
+        android:textSize="17sp" />
 
 </RelativeLayout>

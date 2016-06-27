@@ -8,9 +8,10 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import com.example.laado.R;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -48,13 +49,14 @@ public class TabbarActivity extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new TabFragmentOne(), "INFO");
-        adapter.addFragment(new TabFragmentTwo(), "PAYMENT");
-        adapter.addFragment(new TabFragmentThree(), "HISTORY");
+        adapter.addFragment(new TabFragmentINFO(), "INFO");
+        adapter.addFragment(new TabFragmentPAYMENT(), "PAYMENT");
+        adapter.addFragment(new TabFragmentHISTORY(), "HISTORY");
         viewPager.setAdapter(adapter);
     }
 
     class ViewPagerAdapter extends FragmentPagerAdapter {
+
         private final List<Fragment> mFragmentList = new ArrayList<>();
         private final List<String> mFragmentTitleList = new ArrayList<>();
 
@@ -80,6 +82,23 @@ public class TabbarActivity extends AppCompatActivity {
         @Override
         public CharSequence getPageTitle(int position) {
             return mFragmentTitleList.get(position);
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
     }
 

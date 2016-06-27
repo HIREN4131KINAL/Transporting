@@ -133,6 +133,7 @@
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="tab_name">#61615b</color>
     <color name="textColorPrimary">#292727</color>
+    <color name="text_dark">#585454</color>
     <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
     <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
     <color name="wallet_bright_foreground_holo_light">#ff000000</color>
@@ -1434,7 +1435,7 @@
     <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
 
     </style>
-    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light">
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
         <item name="colorPrimary">@color/colorPrimary</item>

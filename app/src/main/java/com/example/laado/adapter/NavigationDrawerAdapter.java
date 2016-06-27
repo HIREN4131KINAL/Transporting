@@ -14,9 +14,6 @@ import java.util.List;
 
 import com.example.laado.R;
 import com.example.laado.model.NavDrawerItem;
-/**
- * Created by Arpit
- */
 
 public class NavigationDrawerAdapter extends RecyclerView.Adapter<NavigationDrawerAdapter.MyViewHolder> {
     List<NavDrawerItem> data = Collections.emptyList();

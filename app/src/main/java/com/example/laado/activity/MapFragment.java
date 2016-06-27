@@ -1,13 +1,17 @@
 package com.example.laado.activity;
 
 import android.app.Activity;
+import android.app.DialogFragment;
+import android.app.FragmentManager;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 
 import com.example.laado.R;
+import com.example.laado.dialog.BottomDialog;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;
@@ -19,12 +23,12 @@ import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-
 public class MapFragment extends Fragment {
 
     MapView mMapView;
     private GoogleMap googleMap;
     View rootView;
+    LinearLayout lin_dialog;
 
     public MapFragment() {
         // Required empty public constructor
@@ -42,6 +46,7 @@ public class MapFragment extends Fragment {
                              Bundle savedInstanceState) {
         rootView = inflater.inflate(R.layout.fragment_map, container, false);
 
+        lin_dialog = (LinearLayout)rootView.findViewById(R.id.lin_dialog);
         mMapView = (MapView) rootView.findViewById(R.id.mapView);
         mMapView.onCreate(savedInstanceState);
 
@@ -74,6 +79,15 @@ public class MapFragment extends Fragment {
                 .newCameraPosition(cameraPosition));
 
         // Perform any camera updates here
+
+        lin_dialog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+            }
+        });
+
 
         return rootView;
     }
@@ -111,4 +125,5 @@ public class MapFragment extends Fragment {
         super.onLowMemory();
         mMapView.onLowMemory();
     }
+
 }

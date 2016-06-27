@@ -18,7 +18,7 @@ public class VehicleIdentify extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.vehicle_identify);
 
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar = (Toolbar)findViewById(R.id.toolbar);
         toolbar.setTitle("");
         toolbar.setBackgroundResource(R.drawable.toolbar_background);
         setSupportActionBar(toolbar);

@@ -12,7 +12,7 @@
 
 
     <LinearLayout
-        android:id="@+id/lin"
+        android:id="@+id/lin_dialog"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
